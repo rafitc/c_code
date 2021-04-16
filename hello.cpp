@@ -8,4 +8,9 @@ int main()
 	c = n1+n2;
 	cout<<"\n"<<c;
 	
+	cout<<"\n Enter two num";
+	cin>>n1>>n2;
+	c = n1 - n2;
+	cout<<"\n"<<c;
+	
 }
