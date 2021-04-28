@@ -3,7 +3,7 @@
 #include<iostream> //header file 
 using namespace std;
 void calculator(); //Function declaration 
-void kmTom();
+void kmTom(); //function declaration
 
 int main(){
 	string name; //variable to store name 
@@ -90,10 +90,10 @@ void calculator(){ //calculator program
 	}
 }
 
-void kmTom(){ //Killometer to Meter fucntion 
+void kmTom(){ //Kilometre to Meter fucntion 
 	float km;
 	float meter;
-	cout<<"\n Enter value in Killometer: ";
+	cout<<"\n Enter value in Kilometre: ";
 	cin>>km;
 	meter = km * 1000;
 	cout<<km<<" KM is equal to "<<meter << " Meter";
