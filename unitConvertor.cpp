@@ -98,3 +98,12 @@ void kmTom(){ //Kilometre to Meter fucntion
 	meter = km * 1000;
 	cout<<km<<" KM is equal to "<<meter << " Meter";
 }
+
+void mtocm(){
+	float m;
+	float cm;
+	cout<<"\n Enter value in Meter: ";
+	cin>>m;
+	cm = m * 100;
+	cout<<m<<" M is equal to "<<cm << " CM";
+}
